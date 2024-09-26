@@ -51,3 +51,28 @@ footer a {
 footer a:hover {
     color: #679748;
 }
+
+nav {
+    width: 55%; 
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+    width: 100%; 
+    padding: 20px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #404a29;
+    background-color: #ebcd72;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s; 
+}
+nav ul li a:hover {
+    background-color: #497435; 
+}
