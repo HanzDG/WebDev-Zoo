@@ -6,3 +6,57 @@
     border: 2px solid #497435; /* Adds a subtle border matching the zoo theme */
     border-radius: 10px;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #accC4c, #679748);
+    text-align: center;
+    color: #404a29; 
+}
+
+header {
+    color: #404a29; 
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border-radius: 0;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px #ebcd72; 
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #497435; 
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #679748; 
+}
+
+footer {
+    color: #a8613a; 
+    margin-top: 20px;
+}
